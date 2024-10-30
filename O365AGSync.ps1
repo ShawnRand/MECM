@@ -15,7 +15,7 @@ $source = "http://MECM01.RandLab.az/O365Updates/"
 $destination = "F:\Office365AGSync\O365Content\"
 $logsfolder = "F:\Office365AGSync\Logs"
 $recursive = $true
-$cleanupdays = 1
+$cleanupdays = 45
 
 # Define the path to the log file
 $logFile = Join-Path $logsfolder "Office365MPESync.log"
