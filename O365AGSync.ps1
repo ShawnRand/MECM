@@ -18,7 +18,7 @@ $recursive = $true
 $cleanupdays = 45
 
 # Define the path to the log file
-$logFile = Join-Path $logsfolder "Office365MPESync.log"
+$logFile = Join-Path $logsfolder "Office365AGSync.log"
 
 # Create $logsfolder directory if it doesn't exist
 if (-not (Test-Path -Path $logsfolder)) {
